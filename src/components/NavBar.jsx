@@ -2,19 +2,19 @@ import { Button, Container, Navbar, Nav, Dropdown, NavDropdown, img} from 'react
 
 const NavBar = () => {
     return (
-        <Navbar  collapseOnSelect expand="lg" className="bg-body-tertiary fixed-top">
-      <Container className="fw-bold bg-primary">
-        <Navbar.Brand href="/"> e-Shop       
+        <Navbar  collapseOnSelect expand="lg" className="bg-primary fixed-top text-danger">
+      <Container className="fw-bold ">
+        <Navbar.Brand href="/" className="text-danger"> e-Shop       
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/">Contact</Nav.Link>
-            <Nav.Link href="/">Gallery</Nav.Link>            
-            <NavDropdown title="Dropdown" id="collasible-nav-col">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <Nav.Link href="/" className="text-warning">Home</Nav.Link>
+            <Nav.Link href="/about" className="text-warning">About</Nav.Link>
+            <Nav.Link href="/" className="text-warning">Contact</Nav.Link>
+            <Nav.Link href="/" className="text-warning">Gallery</Nav.Link>            
+            <NavDropdown className="text-warning" title="Dropdown" id="collasible-nav-col" >
+              <NavDropdown.Item href="#action/3.1" >Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>
