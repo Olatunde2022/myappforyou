@@ -2,8 +2,8 @@ import { Button, Container, Navbar, Nav, Dropdown, NavDropdown, img} from 'react
 
 const NavBar = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary bg-danger">
-      <Container>
+        <Navbar  collapseOnSelect expand="lg" className="bg-body-tertiary fixed-top">
+      <Container className="fw-bold bg-primary">
         <Navbar.Brand href="/"> e-Shop       
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
